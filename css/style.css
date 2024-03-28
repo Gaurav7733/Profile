@@ -321,13 +321,13 @@ a:focus {
 
 .header p {
     color: #FF6F61;
-    font-size: 22px;
+    font-size: 35px;
     font-weight: 600;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
 }
 
 .header h1 {
-    color: #222222;
+    color: #e4814c;
     font-size: 50px;
     font-weight: 700;
 }
@@ -346,7 +346,7 @@ a:focus {
 .header .typed-cursor {
     font-size: 25px;
     font-weight: 300;
-    color: #222222;
+    color: #ea1111;
 }
 
 .large-btn .content-inner {
@@ -654,7 +654,6 @@ a:focus {
     position: relative;
     padding: 60px 30px;
     background: #ffffff;
-    border-bottom: 30px solid #F6D155;
 }
 
 .skills .exp-col {
