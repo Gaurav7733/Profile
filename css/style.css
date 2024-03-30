@@ -77,7 +77,9 @@ a:focus {
 
 .navbar-expand-md .navbar-nav .nav-link i {
     color: #FF6F61;
-    float: right;
+    float: left;
+    margin-left: 20px;
+    margin-right: 50px;
     padding-top: 5px;
     transition: all .3s;
 }
@@ -315,8 +317,16 @@ a:focus {
 .header .content-inner {
     padding: 100px 30px;
     /*background: url(../img/profile.png) right bottom no-repeat;*/
-    background: url(../images/profile.jpg) right bottom no-repeat;
+    background: url(../images/profile-pic2.png) right bottom no-repeat;
     background-size: contain;
+    height: 50%;
+}
+
+@media(min-width: 600px) {
+    .content-inner{
+        padding: 10px 20px;
+        margin: 0%;
+    }
 }
 
 .header p {
